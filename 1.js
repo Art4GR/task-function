@@ -32,15 +32,15 @@ for (var i = 0; i < strrev.length; i++)
 	}
 	//else bubblearr.push(arr[1]);
 	console.log(bubblearr);
-	}
+}
 
-	//здесь функция которая принемает в себя колбэк
-	function someFunction(f){
-	var date = new Date();
-	for (var i = 0; i < 10000; i++) f(arr);
-	return new Date() - date;
-	}
+//здесь функция которая принbмает в себя колбэк
+function someFunction(f){
+var date = new Date();
+for (var i = 0; i < 10000; i++) f(arr);
+return new Date() - date;
+}
 
-	reverse(str);
-	alert('Время быстрой сортировки=' + someFunction(quickSort) + 'ms');
-	alert('Время бабл сортировки' + someFunction(bubbleSort) + 'ms');
+reverse(str);
+alert('Время быстрой сортировки=' + someFunction(quickSort) + 'ms');
+alert('Время бабл сортировки' + someFunction(bubbleSort) + 'ms');
